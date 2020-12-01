@@ -1,0 +1,5 @@
+.line {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted #ccc;
+}

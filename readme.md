@@ -1,5 +1,8 @@
-# Read P1 """smart""" meter data
+# Push p1 meter data to a webpage
 
-A little side hackery to read data from the P1 port on my smart electicity (and gas) meter.
+- `dotnet restore`
+- `libman restore`
 
-Built with C# on .NET Core
+`dotnet run`
+
+App can be found on <public ip of hosting machine>:5100
