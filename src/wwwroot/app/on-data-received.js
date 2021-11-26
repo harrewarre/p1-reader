@@ -7,4 +7,5 @@ function onConsumptionReported(consumptionData) {
     document.getElementById("l1Consumption").innerText = (consumptionData.line1Kw * 1000) + "W";
     document.getElementById("l2Consumption").innerText = (consumptionData.line2Kw * 1000) + "W";
     document.getElementById("l3Consumption").innerText = (consumptionData.line3Kw * 1000) + "W";
+    document.getElementById("gasConsumption").innerText = consumptionData.gasInM3 + "M³";
 }
